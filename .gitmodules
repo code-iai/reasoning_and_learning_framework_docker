@@ -1,0 +1,6 @@
+[submodule "reasoning_and_learning_framework_msgs"]
+	path = reasoning_and_learning_framework_msgs
+	url = git@github.com:code-iai/reasoning_and_learning_framework_msgs.git
+[submodule "reasoning_and_learning_framework"]
+	path = reasoning_and_learning_framework
+	url = git@github.com:code-iai/reasoning_and_learning_framework.git
