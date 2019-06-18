@@ -14,7 +14,7 @@ See https://github.com/code-iai/neem-auto-learner for more details.
    ```
 2. To execute RALF for the first time just execute the following command: 
    ```bash
-   docker run --network host --name ralf --mount source=<PATH_TO_YOUR_TRAINED_MODELS>,target=/app/models codeiai/ralf:1.0.0
+   docker run --network host --name ralf --mount source=<PATH_TO_YOUR_TRAINED_MODELS>,target=/app/models --env ROS_HOSTNAME=<ROS_CORE_IP> --env ROS_IP=<ROS_CORE_IP> codeiai/ralf:1.0.0
    ```   
 3. If you started the container once with the "docker run" command, please use the following command for future usage: 
     ```bash
